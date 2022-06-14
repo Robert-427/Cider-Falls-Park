@@ -1,0 +1,41 @@
+.park_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+.park_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.park_logo {
+    width: 75px;
+}
+
+.details {
+    display: flex;
+}
+
+.area_card {
+    border: 2px solid darkblue;
+    padding: 1em;
+    margin: 0.5em;
+    font-weight: bold;
+}
+
+.detail_column {
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.areaList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.area_list {
+    text-align: center;
+}
+
+.detail_aside {
+    
+}

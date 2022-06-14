@@ -52,6 +52,15 @@ const database = {
         { id: 10, firstName: `Arv`, lastName: `Biddle`, areaId: 4 },
         { id: 11, firstName: `Tom`, lastName: `Riddle`, areaId: 5 },
         { id: 12, firstName: `Tom`, lastName: `Bombadill`, areaId: 6 }
+    ],
+    information: [
+        { 
+        id: 1, 
+        name: `Cider Falls Park`,
+        email: `ciderfallspark@emailaddress.com`, 
+        phone: `1-800-555-2468`,
+        logo: `NPS-Logo.png`,
+        address: `135 Cider Falls Park Lane`}
     ]
 }
 
@@ -69,4 +78,8 @@ export const getGuests = () => {
 
 export const getAreaServices = () => {
     return database.areaServices.map(areaService => ({ ...areaService }))
+}
+
+export const getParkInformation = () => {
+    return database.information.map(info => ({ ...info}))
 }
