@@ -8,16 +8,16 @@ const database = {
         { id: 6, name: `Pine Bluff Trails`, location: `Southeast` }
     ],
     services: [
-        { id: 1, name: `canoeing` },
-        { id: 2, name: `fishing` },
-        { id: 3, name: `hiking` },
-        { id: 4, name: `information` },
-        { id: 5, name: `lodging` },
-        { id: 6, name: `parking` },
-        { id: 7, name: `picnicking` },
-        { id: 8, name: `rafting` },
-        { id: 9, name: `rock climbing` },
-        { id: 10, name: `zip lines` }
+        { id: 1, name: `Canoeing` },
+        { id: 2, name: `Fishing` },
+        { id: 3, name: `Hiking` },
+        { id: 4, name: `Information` },
+        { id: 5, name: `Lodging` },
+        { id: 6, name: `Parking` },
+        { id: 7, name: `Picnicking` },
+        { id: 8, name: `Rafting` },
+        { id: 9, name: `Rock climbing` },
+        { id: 10, name: `Zip lines` }
     ],
     areaServices: [
         { id: 1, areaId: 1, servicesId: 5 },

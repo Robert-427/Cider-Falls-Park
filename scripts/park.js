@@ -7,6 +7,7 @@ export const parkHeader = () => {
     for (const info of parkInfo) {
         parkHeaderHTML += `<img  class="park_logo image--card" src="images/${info.logo}" />`
         parkHeaderHTML += `<h1 class="park_name">${info.name}</h1>`
+        parkHeaderHTML += `<img  class="park_logo image--card" src="images/${info.logo}" />`
     }
     return parkHeaderHTML
 }

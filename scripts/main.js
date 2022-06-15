@@ -1,6 +1,7 @@
 import { GuestsHTML } from "./guests.js"
 import { parkFooter, parkHeader } from "./park.js"
 import { areaList } from "./areas.js"
+import { serviceList } from "./services.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -8,6 +9,7 @@ const applicationHTML = `
 <div class="park_header">
     ${parkHeader()}
 </div>
+${serviceList()}
 <article class="details">
     <section class="detail_column">
         <h2 class="area_list">Park Areas</h2>
